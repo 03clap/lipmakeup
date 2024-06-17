@@ -1,0 +1,64 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #fffaeb;
+}
+
+h1,
+h2,
+h3,
+h4,
+.work-sans-serif {
+    font-family: "Work Sans", sans-serif;
+}
+
+.korean-text {
+    font-family: "Noto Sans KR", sans-serif;
+    /* 한국어 글꼴 설정 */
+}
+
+.english-text {
+    font-family: "Work Sans", sans-serif;
+    /* 영어 글꼴 설정 */
+}
+.section-spacing {
+    margin-bottom: 20px;
+}
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #3a4161 !important;
+}
+.card-container {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 20px;
+    scrollbar-width: thin;
+}
+
+.card {
+    display: inline-block;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+
+
